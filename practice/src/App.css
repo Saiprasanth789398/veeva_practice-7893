@@ -1,0 +1,168 @@
+.navsection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #cd9696;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     }
+    
+     .navsection h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+     }
+    
+     .navsection nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+     }
+    
+     .navsection nav a:hover {
+    color: #007bff;
+     }
+    .mobile {
+    /* display: flex;  */
+    justify-content: baseline;
+    } 
+    .mobilecontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    .mobileimg {
+    width: 200px;   
+     }
+    .mobileimg img {
+    width: 100%;    
+     }
+     .computercontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }   
+
+    .computercontainer .computer {
+    width: 200px;   
+    }
+    .computer
+    {
+        display : flex;
+        flex-wrap : wrap;
+        justify-content : space-between;
+
+    }
+    .pagesection{
+        display: flex;
+        flex-wrap: wrap;
+
+
+    }.submenuu {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.submenu ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.submenu ul li {
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.custom-link {
+    text-decoration: none;
+}
+
+.submenu ul li:hover {
+    color: yellow;
+}
+.mobilepage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.computerpage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.furniturepage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.kitcehnpage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.menswearpage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.womanwearpage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.watchespage    {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.single {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 30px;
+}
+
+.singleimg {
+    width: 40%;
+}
+
+.singleimg img {
+    width: 100%;
+}
+
+.singleinfo {
+    width: 50%;
+}
+
+.buybtn {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.full-page{
+    display : flex;
+    justify-content: space-between;
+    gap : 50px;
+}
+.pro-selected {
+    width: 30%;
+    border: 1px solid #ccc;
+}
+.pagesection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
