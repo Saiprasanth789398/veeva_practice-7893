@@ -13,7 +13,7 @@ function App() {
             <button onClick={increase}>+</button>
         </>
     );
+
 }
 
-
-sai prasanth pappa
+// sai prasanth pappa
